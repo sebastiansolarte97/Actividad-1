@@ -1,0 +1,2 @@
+DESCRIPCIÓN DE LA ACTIVIDAD
+Un Diario de campo donde la función principal es informar a los `padres de familia y a los estudiantes acerca de las actividades a realizar en el año, el estado académico de los estudiantes; este diario de campo será administrado por los profesores.
