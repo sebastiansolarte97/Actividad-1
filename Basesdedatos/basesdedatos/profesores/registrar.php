@@ -26,14 +26,6 @@ if (mysqli_num_rows($verificar_cedula)> 0) {
 
 }
 
-//$verificar_usuario= mysqli_query($conexion, "SELECT * FROM  prueba WHERE usuario = '$usuario' ");
-//if (mysqli_num_rows($verificar_usuario)> 0) {
-	//echo '<script>
-	//alert("el usuario ya esta registrado")
-	//</script> 
-	//';
-//	exit;
-//}
 
 
 $resultado= mysqli_query($conexion, $insertar); 
@@ -43,10 +35,10 @@ if (!$resultado) {
 	echo '<script>
 	alert("el usuario ya esta registrado")
 	</script>'; 
-	header("location:../inicio.php");	
+	header("location:../index.php");	
 	exit;
 }
-	//echo "Usuario registrado exitosamente"; 
+
 
 
 
