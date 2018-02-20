@@ -18,7 +18,7 @@ if (!$resultado) {
 	echo '<script>
 	alert("el usuario ya esta registrado")
 	</script>'; 
-	header("location:../index.php");	
+	header("location:../index.html");	
 	exit;
 }
 	//echo "Usuario registrado exitosamente"; 
